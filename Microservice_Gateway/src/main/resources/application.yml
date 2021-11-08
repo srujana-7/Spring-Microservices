@@ -1,0 +1,28 @@
+
+
+server:
+ port : 8090
+ 
+spring :
+ application:
+  name : gateway
+ cloud :
+   gateway :
+     routes :
+       - id : Student-Microservice
+         uri : lb://Student-Microservice
+         predicates :
+         - Path=/Student/**
+       - id : Course-Microservice
+         uri : lb://Course-Microservice
+         predicates :
+         - Path=/Course/**  
+         
+         
+eureka:
+  client:
+    service-url:
+      defaultZone : http://localhost:8761/eureka/        
+
+
+    
