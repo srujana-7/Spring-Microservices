@@ -22,4 +22,4 @@ In this application – two microservices - (REST CRud Applications) for Student
 5.A Gateway server created to route requests from client or REST API requests to appropriate microservice.
 6.Distributed log tracing system implemented using zipkin.
 
-Developed on Spring Tool Suite, database is MySQL.
+
