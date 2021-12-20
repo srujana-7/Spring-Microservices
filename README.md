@@ -7,7 +7,7 @@ Project Comprises 4 main components -
 
 2.Service Registry for Microservices - (Eureka Server application)
 
-3.Spring Cloud Gateway for routing requests to Microservice.
+3.Spring Cloud Gateway for routing requests to appropriate Microservices.
 
 4.Distributed log tracing system to trace API Calls.
 
