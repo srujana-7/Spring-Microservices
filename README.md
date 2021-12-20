@@ -3,8 +3,11 @@ Java Spring Boot Microservices
 
 Project Comprises 4 main components -
 1.Two Microservices (Student Microservice and Course Microservice)
+
 2.Service Registry for Microservices - (Eureka Server application)
+
 3.Spring Cloud Gateway for routing requests to Microservice.
+
 4.Distributed log tracing system to trace API Calls.
 
 
